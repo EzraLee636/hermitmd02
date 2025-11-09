@@ -6,6 +6,11 @@
   "scripts": {
     "start": "PIDUSAGE_SILENT=true pm2 start . --attach --name hermit-md"
   },
+  {
+  "engines": {
+    "node": "18.x"
+  }
+},
   "author": "A-d-i-t-h-y-a-n",
   "license": "ISC",
   "dependencies": {
@@ -41,3 +46,4 @@
     "yt-search": "^2.11.1"
   }
 }
+
